@@ -19,3 +19,38 @@ If used, the following must be manually enabled in hillside52.conf:
 
 If desired, you could hardwire a display to the I2C header,
   which is arranged for a haptic feedback board.
+  
+  
+---
+## Trackpoint integration
+## r61 trackpoint (oldest)
+https://github.com/alonswartz/trackpoint/blob/master/pinouts/r61.jpg
+
+First on the pins: Kim's trackpoint driver strictly only needs 2 pins, data (SDA) and clock (SCL), with an optional third pin for the trackpoint's reset.
+1 DATA *
+2 RST *optional
+3 BTN1
+4 BTN2
+5 BTN3
+6 CLOCK *
+7 GND *
+8 VCC *
+
+## 28050? trackpoint (new)
+
+https://github.com/alonswartz/trackpoint/blob/master/pinouts/28050.jpg
+
+1 RST * (optional)
+2 VCC *
+3 CLK * 
+4 GND *
+5 MB0
+6 MB1
+7 DTA *
+8 MB2
+
+Nice nano pinout:
+https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver-zmk_config
+RST: D9/P1.06
+SCL D16/P0.10
+SDA D10/P0.09
