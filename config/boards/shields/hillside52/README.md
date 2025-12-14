@@ -92,6 +92,6 @@ https://github.com/alonswartz/trackpoint/blob/master/pinouts/28050.jpg
 https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver
 
 move PINS to:
-SDA D2/P0.17 (promicro 2)
-CLK D3/P0.20 (promicro 3)
-RST D4/P0.22 (pro micro 4)
+SDA D2/P0.17 (promicro 2) blue
+CLK D3/P0.20 (promicro 3) green 
+RST D4/P0.22 (pro micro 4) yellow
