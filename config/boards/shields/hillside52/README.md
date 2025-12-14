@@ -85,3 +85,13 @@ https://github.com/alonswartz/trackpoint/blob/master/pinouts/28050.jpg
 6 MB1
 7 DTA * blue
 8 MB2
+
+
+### ZMK ps2 mouse driver
+
+https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver
+
+move PINS to:
+SDA D2/P0.17 (promicro 2)
+CLK D3/P0.20 (promicro 3)
+RST D4/P0.22 (pro micro 4)
