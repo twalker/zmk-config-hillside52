@@ -73,8 +73,8 @@
 // D9 for the reset circuit.
 // #define MOUSE_PS2_PIN_SCL_PRO_MICRO <&pro_micro 16 GPIO_ACTIVE_HIGH>
 // #define MOUSE_PS2_PIN_SDA_PRO_MICRO <&pro_micro 10 GPIO_ACTIVE_HIGH>
-#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&pro_micro 17 GPIO_ACTIVE_HIGH>
-#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&pro_micro 20 GPIO_ACTIVE_HIGH>
+#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&pro_micro 2 GPIO_ACTIVE_HIGH>
+#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&pro_micro 3 GPIO_ACTIVE_HIGH>
 
 
 // Configure the Power-On-Reset pin
@@ -88,7 +88,7 @@
 //
 // It's ok to use a low-frequency pin for this.
 //#define MOUSE_PS2_PIN_RST_PRO_MICRO <&pro_micro 9 GPIO_ACTIVE_HIGH>
-#define MOUSE_PS2_PIN_RST_PRO_MICRO <&pro_micro 22 GPIO_ACTIVE_HIGH>
+#define MOUSE_PS2_PIN_RST_PRO_MICRO <&pro_micro 4 GPIO_ACTIVE_HIGH>
 
 
 // Configure SDA pin using the pinctrl notation
